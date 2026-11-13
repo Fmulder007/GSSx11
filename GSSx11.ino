@@ -33,7 +33,7 @@ static const uint8_t ENCODER_B_PIN = 3;
 static const uint8_t ENCODER_BUTTON_PIN = 4;
 
 static const uint32_t MIN_FREQUENCY_HZ = 1000000UL;
-static const uint32_t MAX_FREQUENCY_HZ = 300000000UL;
+static const uint32_t MAX_FREQUENCY_HZ = 500000000UL;
 static const uint32_t DEFAULT_FREQUENCY_HZ = 7100000UL;
 
 static const uint16_t ENGINEERING_EEPROM_RESERVED = 16;
