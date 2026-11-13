@@ -24,7 +24,7 @@
 // Делитель энкодера для частоты и инженерной настройки кварца.
 #define ENCODER_COUNTS_PER_STEP 4
 // Отдельный делитель для шага, выхода, реверса и мощности.
-#define ENCODER_MENU_COUNTS_PER_STEP 4
+#define ENCODER_MENU_COUNTS_PER_STEP 12
 
 // --------------------------- Аппаратная конфигурация -----------------------
 
@@ -33,7 +33,7 @@ static const uint8_t ENCODER_B_PIN = 3;
 static const uint8_t ENCODER_BUTTON_PIN = 4;
 
 static const uint32_t MIN_FREQUENCY_HZ = 1000000UL;
-static const uint32_t MAX_FREQUENCY_HZ = 200000000UL;
+static const uint32_t MAX_FREQUENCY_HZ = 300000000UL;
 static const uint32_t DEFAULT_FREQUENCY_HZ = 7100000UL;
 
 static const uint16_t ENGINEERING_EEPROM_RESERVED = 16;
